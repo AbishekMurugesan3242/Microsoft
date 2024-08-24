@@ -1,0 +1,282 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0 50px;
+    padding: 0;
+}
+nav ul li .logo{
+    margin-left: 0;
+    width: 100px;
+    height: 25px;
+    mix-blend-mode:multiply;
+}
+nav ul li #logo{
+    height: 15px;
+    width: 16px;
+    display: block;
+    margin-left: 400px;
+}
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    position: relative;
+    margin: 0 20px;
+    color: black;
+    text-decoration: none;
+}
+nav ul li a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: black;
+    bottom: -7px;
+    border-radius: 40px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.3s;
+}
+nav ul li a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+.laptop{
+    background-color: rgb(214, 214, 212);
+    display: grid;
+    place-items: center;
+    margin-left: 60px;
+    width: 88%;
+    padding: 20px 0;
+}
+.laptop img{
+    mix-blend-mode:multiply;
+    width: 50%;
+    height: 100%;
+}
+.laptop .text{
+    font-size: x-large;
+}
+.laptop .text1{
+    font-size: large;
+}
+.laptop button{
+    background: black;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    transition: .2s ease-in;
+}
+.laptop button:hover{
+    box-shadow: inset 260px 0px 0px 0px rgb(248, 152, 7);
+    color: black;
+}
+
+.l-bar{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.l-bar img{
+    mix-blend-mode: multiply;
+    background-color: rgb(214, 214, 212);
+}
+.l-bar .l-bar1{
+    margin: 6px;
+}
+.l-bar .l-bar1 img{
+    width: 90%;
+    height: 50%;
+}
+.l-bar .l-bar1{
+    width: 23%;
+    height: 50%;
+}
+.p1{
+    font-size: 20px;
+}
+.p2{
+    color: blue;
+    text-transform: uppercase;
+}
+.l-bar .l-bar2{
+    margin: 6px;
+}
+.l-bar .l-bar2 img{
+    width: 100%;
+    height: 50%;
+}
+.l-bar .l-bar2{
+    width: 23%;
+    height: 50%;
+}
+.p3{
+    font-size: 20px;
+}
+.p4{
+    color: blue;
+    text-transform: uppercase;
+}
+.l-bar .l-bar3{
+    margin: 6px;
+}
+.l-bar .l-bar3 img{
+    width: 70%;
+    height: 50%;
+}
+.l-bar .l-bar3{
+    width: 23%;
+    height: 50%;
+}
+.p5{
+    font-size: 20px;
+}.p6{
+    color: blue;
+    text-transform: uppercase;
+}
+.l-bar .l-bar4{
+    margin: 6px;
+}
+.l-bar .l-bar4 img{
+    width: 85%;
+    height: 50%;
+}
+.l-bar .l-bar4 {
+    width: 22%;
+    height: 50%;
+}
+.p7{
+    font-size: 20px;
+}
+.p8{
+    color: blue;
+    text-transform: uppercase;
+}
+.game img{
+    mix-blend-mode: multiply;
+    width: 50%;
+    height: 20%;
+    float:right;
+    margin-right: 80px ;
+}
+.game{
+    text-align: left;
+    margin-left: 60px ;
+    #p1{
+        font-size: 30px;
+    }
+    #p2{
+        font-size: 16px;
+        width: 35%;
+    }
+    .btn{
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+}
+.l-2bar{
+    margin-top: 16%;
+    margin-left: 60px;
+    display: flex;
+}
+.l-2bar {
+    
+    .l-2bar1 img{
+    width: 80%;
+    height: 46%;
+    }
+    .l-2bar2 img{
+        width: 100%;
+        height: 100%;
+    }
+    .l-2bar3 img{
+        width: 90%;
+        height: 148px;
+    }
+    .l-2bar4 img{
+        width: 90%;
+        height: 148px;
+        }
+}
+.l-2bar .l-2bar1 {
+    margin-right: 0px;
+}
+.pp1{
+    font-size: 20px;
+}
+.pp2{
+    font-size: 16px;
+    color: blue;
+    text-transform: uppercase;
+}
+.l-2bar .l-2bar2{
+    margin-right: 10px;
+    width: 23%;
+    height: 50%;
+}
+.pp3{
+    font-size: 20px;
+}
+.pp4{
+    font-size: 16px;
+    color: blue;
+    text-transform: uppercase;
+}
+.l-2bar .l-2bar3{
+    margin: 0px;
+}
+.l-2bar .l-2bar3{
+    width: 22%;
+    height: 40%;
+}
+.pp5{
+    font-size: 20px;
+}
+.pp6{
+    font-size: 16px;
+    color: blue;
+    text-transform: uppercase;
+}
+.l-2bar .l-2bar4{
+    margin-left: 8px;
+}
+.l-2bar .l-2bar4{
+    width: 22%;
+    height: 50%;
+} 
+.pp7{
+    font-size: 20px;
+}
+.pp8{
+    font-size: 16px;
+    color: blue;
+    text-transform: uppercase;
+}
+.mountain{
+    background: url(mountain.jpg);
+    margin-left: 60px;
+    margin-bottom: 10px;
+    width: 90%;
+    height: 380px;
+}
+.mountain p{
+    color: white;
+    font-size: large;
+    width: 42%;
+    padding-top: 20%;
+    margin-left: 20px;
+}
+.mountain button{
+    background: black;
+    color: white;
+    border-radius: 30px;
+    border-color: white;
+    padding: 15px;
+    margin-left: 40px;
+}
